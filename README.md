@@ -1,3 +1,5 @@
+<img width="1918" height="1029" alt="image" src="https://github.com/user-attachments/assets/b7ab974f-3026-43da-9f16-e3139900224f" />
+
 # j.os.s - Minimal 16-bit JavaScript OS Bootloader
 
 <p align="center">
