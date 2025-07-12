@@ -1,0 +1,13 @@
+{
+  "name": "j.os.s",
+  "version": "0.0.1",
+  "description": "",
+  "type":"module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": ["javascript","operating system","j.os.s","osdev"],
+  "author": "0x40.8p0",
+  "license": "UNLICENSED"
+}
