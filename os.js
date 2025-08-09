@@ -1,39 +1,4 @@
 import { open, writeFile } from 'node:fs/promises';
-/* main.js */
-
-// BIOS
-// 512 bytes on disk
-// store at 0xfc00
-
-// magic string
-//
-
-// 1. initialize stack
-// sp
-// 16 bit register
-// copy value to AX
-// copy from AX to SP
-// copy2ax()
-// copy2sp()
-
-// 2. print the message
-// copy AX, BX and maybe CX
-// execute interrupt
-// copy2ax,bx,cx
-// biosinterrupt
-
-// halt the computer
-// 1. disable interrupts
-// 2. issue halt intr
-// 3. infinite loop
-
-// bbbbbbbb aaaaaaaa
-// 01011100 01011100
-// 11111111 00000000
-//          01011100
-
-// >>8 
-
 
 let ctors;
 let rev;
