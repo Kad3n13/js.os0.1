@@ -1,3 +1,26 @@
+<h1>First Steps in BIOS Programming</h1>
+
+<p><strong>BIOS Basics:</strong>  
+- Occupies 512 bytes on disk, typically stored at memory address <code>0xFC00</code>.</p>
+
+<p><strong>Initialization:</strong>  
+- Set up the stack pointer (SP) by copying a value into register AX, then moving AX to SP.</p>
+
+<p><strong>Printing a Message:</strong>  
+- Use registers AX, BX, and possibly CX to prepare parameters.  
+- Trigger a BIOS interrupt to display the message.</p>
+
+<p><strong>Halting the Computer:</strong>  
+- Disable interrupts.  
+- Issue the halt interrupt.  
+- Enter an infinite loop to prevent further execution.</p>
+
+<p><strong>Notes on Data:</strong>  
+- Example binary patterns:  
+  <code>01011100 01011100</code> (hex <code>0x5C5C</code>)  
+  <code>11111111 00000000</code> (hex <code>0xFF00</code>)</p>
+
+
 <img width="1918" height="1029" alt="image" src="https://github.com/user-attachments/assets/b7ab974f-3026-43da-9f16-e3139900224f" />
 
 # j.os.s - Minimal 16-bit JavaScript OS Bootloader
